@@ -24,7 +24,7 @@ public class frame extends JFrame
 		this.setContentPane(appPanel);
 		this.setSize(1000, 500);
 		this.setTitle("eh I couldnt think of anything");
-		this.setResizable(true);
+		this.setResizable(false);
 		this.setVisible(true);
 	}
 
