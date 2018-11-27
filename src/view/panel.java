@@ -55,7 +55,23 @@ public class panel extends JPanel
 					fug.setText(fugg + "fug");
 					fugg = (fugg + "fug");
 					}
-		});}
+		});
+	    But2.addActionListener(new ActionListener() {
+	    	public void actionPerformed (ActionEvent click) {
+	    		changeColor();
+	    	}
+	    });}
+	    
+	    private void changeColor()
+		{
+			int red = (int) (Math.random() * 256);
+			int blue = (int) (Math.random() * 256);
+			int green = (int) (Math.random() * 256);
+			
+			this.setBackground(new Color(red, green, blue));
+		}
+	    
+	
 	
 		
 		
