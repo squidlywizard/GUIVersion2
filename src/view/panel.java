@@ -1,6 +1,5 @@
 package view;
 
-public class panel
-{
-
+public class panel{
+	
 }
